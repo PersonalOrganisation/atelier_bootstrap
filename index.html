@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Responsive</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container fixed-top">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/6/6d/RedSoxPrimary_HangingSocks.svg/614px-RedSoxPrimary_HangingSocks.svg.png"
+                        width="50" height="50" alt="">
+                </a>
+                <h3>Socks</h3>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase font-weight-bold text-danger" href="#">Hommes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase font-weight-bold text-danger" href="#">Femmes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase font-weight-bold text-danger" href="#">Enfants</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Panier</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+
+
+        <!-- Carousel -->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.unsplash.com/photo-1513135758017-cf594a129358?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"
+                        height="740px" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1472186422470-1f3fbde547aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2094&q=80"
+                    height="740px" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1490168105446-f43395eb50b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2110&q=80"
+                    height="740px" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- Card -->
+        <!-- Line 1 -->
+        <div class="card-group text-center">
+            <!-- Product 1 -->
+            <div class="card">
+                <a href="" data-toggle="modal" data-target="#exampleModal">
+                    <img src="https://images.unsplash.com/photo-1484071096222-7936a931e094?ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80"
+                        class="card-img-top" alt="">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Produit 1</h5>
+                </div>
+            </div>
+            <!-- Modal 1 -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Produit 1</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="https://images.unsplash.com/photo-1484071096222-7936a931e094?ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80"
+                                class="card-img-top" alt="">
+                        </div>
+                        <p class="text-center">Description de mon produit</p>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Ajouter</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="card">
+                <a href="" data-toggle="modal" data-target="#exampleModal-2">
+                    <img src="https://images.unsplash.com/photo-1484071096222-7936a931e094?ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80"
+                        class="card-img-top" alt="">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Produit 2</h5>
+                </div>
+            </div>
+            <!-- Modal 2 -->
+            <div class="modal fade" id="exampleModal-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Produit 2</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="https://images.unsplash.com/photo-1484071096222-7936a931e094?ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80"
+                                class="card-img-top" alt="">
+                        </div>
+                        <p class="text-center">Description de mon produit</p>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Ajouter</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="card">
+                <a href="" data-toggle="modal" data-target="#exampleModal-3">
+                    <img src="https://images.unsplash.com/photo-1484071096222-7936a931e094?ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80"
+                        class="card-img-top" alt="">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Produit 3</h5>
+                </div>
+            </div>
+            <!-- Modal 3 -->
+            <div class="modal fade" id="exampleModal-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Produit 3</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="https://images.unsplash.com/photo-1484071096222-7936a931e094?ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80"
+                                class="card-img-top" alt="">
+                        </div>
+                        <p class="text-center">Description de mon produit</p>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Ajouter</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 4 -->
+            <div class="card">
+                <a href="" data-toggle="modal" data-target="#exampleModal-4">
+                    <img src="https://images.unsplash.com/photo-1484071096222-7936a931e094?ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80"
+                        class="card-img-top" alt="">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Produit 4</h5>
+                    <!-- Modal 4 -->
+                    <div class="modal fade" id="exampleModal-4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Produit 4</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="https://images.unsplash.com/photo-1484071096222-7936a931e094?ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80"
+                                        class="card-img-top" alt="">
+                                </div>
+                                <p class="text-center">Description de mon produit</p>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary">Ajouter</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Line 2 -->
+        <div class="card-group text-center">
+                <!-- Product 5 -->
+                <div class="card">
+                    <a href="" data-toggle="modal" data-target="#exampleModal-5">
+                        <img src="https://images.unsplash.com/photo-1535486607281-4fc90307a8bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"
+                            class="card-img-top" alt="">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Produit 5</h5>
+                    </div>
+                </div>
+                <!-- Modal 5 -->
+                <div class="modal fade" id="exampleModal-5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Produit 5</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://images.unsplash.com/photo-1535486607281-4fc90307a8bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"
+                                    class="card-img-top" alt="">
+                            </div>
+                            <p class="text-center">Description de mon produit</p>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary">Ajouter</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 6 -->
+                <div class="card">
+                    <a href="" data-toggle="modal" data-target="#exampleModal-6">
+                        <img src="https://images.unsplash.com/photo-1535486607281-4fc90307a8bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"
+                            class="card-img-top" alt="">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Produit 6</h5>
+                    </div>
+                </div>
+                <!-- Modal 6 -->
+                <div class="modal fade" id="exampleModal-6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Produit 6</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://images.unsplash.com/photo-1535486607281-4fc90307a8bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"
+                                    class="card-img-top" alt="">
+                            </div>
+                            <p class="text-center">Description de mon produit</p>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary">Ajouter</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Produit 7 -->
+                <div class="card">
+                    <a href="" data-toggle="modal" data-target="#exampleModal-7">
+                        <img src="https://images.unsplash.com/photo-1535486607281-4fc90307a8bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"
+                            class="card-img-top" alt="">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Produit 7</h5>
+                    </div>
+                </div>
+                <!-- Modal 7 -->
+                <div class="modal fade" id="exampleModal-7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Produit 7</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://images.unsplash.com/photo-1535486607281-4fc90307a8bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"
+                                    class="card-img-top" alt="">
+                            </div>
+                            <p class="text-center">Description de mon produit</p>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary">Ajouter</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 8 -->
+                <div class="card">
+                    <a href="" data-toggle="modal" data-target="#exampleModal-8">
+                        <img src="https://images.unsplash.com/photo-1535486607281-4fc90307a8bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"
+                            class="card-img-top" alt="">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Produit 8</h5>
+                        <!-- Modal 8 -->
+                        <div class="modal fade" id="exampleModal-8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Produit 8</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="https://images.unsplash.com/photo-1535486607281-4fc90307a8bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"
+                                            class="card-img-top" alt="">
+                                    </div>
+                                    <p class="text-center">Description de mon produit</p>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary">Ajouter</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+                    <!-- Footer -->
+                    <footer>
+                        <ul class="ul-footer text-center">
+                            <li class="li-footer"><i class="fas fa-info-circle"></i><a href="#"><span class="name">Qui sommes-nous ?</span></a></li>
+                            
+                            <li class="li-footer"><i class="fas fa-phone"></i><a href="#"><span class="name">CGU</span></a></li>
+                            
+                            <li class="li-footer"><i class="far fa-file-pdf"></i><a href="#"><span class="name">Mentions légales</span></a></li>
+                            
+                            <li class="li-footer"><i class="fas fa-envelope"></i><a href="#"><span class="name">Nous contacter</span></a></li>
+                            
+                        </ul>
+                    </footer>
+
+
+                </div>
+
+                <!-- Optional JavaScript -->
+                <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                    crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                    crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                    crossorigin="anonymous"></script>
+</body>
+
+</html>
